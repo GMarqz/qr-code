@@ -28,6 +28,7 @@
 
 .default {
     height: 100vh;
+    width: 100%;
     background-color: var(--light-grey);
     position: absolute;
 }
