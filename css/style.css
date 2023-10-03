@@ -19,14 +19,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.188px;
 }
 
-.default {
+.container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -36,7 +36,7 @@
     
 }
 
-.container {
+.container__content {
     margin: 85px 27px 85px 28px;
     padding: 16px 16px 193px 16px;
     display: flex;
@@ -59,7 +59,7 @@
 }
 
 
-.container__textos__titulo {
+.container__content-heading {
     margin-top: 24px;
     width: 288x;
     color: var(--dark-navy);
@@ -67,13 +67,13 @@
     font-feature-settings: 'clig' off, 'liga' off;
 
     font-family: var(--font);
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.container__textos__paragrafo {
+.container__content-paragraph {
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
@@ -81,4 +81,15 @@
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
 
+}
+
+@media screen and (min-width: 1440px) {
+    .container__content-heading {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .container__content-paragraph {
+        font-weight: 700;
+        color: var(--black);
+    }
 }
