@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-qr-code-using-css-flexbox-1b7B25z1M7)
-- Live Site URL: [Vercel](https://vercel.com/gmarqzs-projects/qr-code)
+- Live Site URL: [Vercel](https://qr-code-drab-seven.vercel.app)
 
 ## My process
 
